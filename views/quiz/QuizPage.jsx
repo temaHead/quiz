@@ -18,7 +18,6 @@ function QuizPage({ topic, questions }) {
         
         </form>  
         )}
-        <button type='button' id='check-answers'>Проверить финальный счёт</button>
 
     </div>
     <script src='/quiz.js' defer />

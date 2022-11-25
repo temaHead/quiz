@@ -34,7 +34,7 @@ quizRouter.post('/answer-check', async (req, res) => {
   const question = await Question.findByPk(id);
   const {answer} = question
   const isRight = answer.toLowerCase() === userAnswer.toLowerCase()
-  
+  console.log({id1:answer.toLowerCase(), id2:userAnswer.toLowerCase(), bool:answer.toLowerCase() === userAnswer.toLowerCase()});
   res.json({isRight, answer})
 });
 

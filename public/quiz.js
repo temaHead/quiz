@@ -15,8 +15,9 @@ document.querySelector('.quiz-card').addEventListener('click',async (event)=>{
             method:'post',
             body: JSON.stringify({id:par.dataset.questionid, userAnswer:input.value}),
             headers:{'Content-Type':'application/json'},
-        }) 
-        console.log(await response.json())
+        })
+        const data = await response.json()
+        par.innerText =- par.innerText + data.isRight ? ' Верно!' :` Неверно! Правильный ответ: ${data.answer}`
     }
 
 })
