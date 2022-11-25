@@ -1,0 +1,13 @@
+#topics{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.topic-card{
+    width: 100px;
+    height: 100px;
+    border: black 3px solid;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}

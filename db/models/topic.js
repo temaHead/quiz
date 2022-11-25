@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Topic.init({
-    theme_name: DataTypes.TEXT
+    topic_name: DataTypes.TEXT
   }, {
     sequelize,
     modelName: 'Topic',

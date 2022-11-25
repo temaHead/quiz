@@ -3,7 +3,7 @@ const {Topic, Question} = require('../models')
 module.exports = {
   async up (queryInterface, Sequelize) {
     const topic1 = await Topic.create({
-      theme_name:'Тема'
+      topic_name:'Тема'
     })
     Question.bulkCreate([{
       question:'Бесит блять пиздец сука',

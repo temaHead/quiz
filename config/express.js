@@ -15,7 +15,7 @@ function expressConfig(app) {
   app.use(express.json()); // тело запроса, распарсить => req.body
 
   // настраиваем статические файлы из папки public
-  app.use(express.static(`${__dirname}/public`));
+  app.use(express.static(`public`));
 
   app.use(ssr);
 }
