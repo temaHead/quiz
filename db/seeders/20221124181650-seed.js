@@ -6,28 +6,28 @@ module.exports = {
       topic_name:'Тема'
     })
     Question.bulkCreate([{
-      question:'Бесит блять пиздец сука',
-      answer:'Бесит блять пиздец сука',
+      question:'Зачем?',
+      answer:'Затем',
       topic_id:topic1.id
     },
     {
-      question:'Бесит блять пиздец сука',
-      answer:'Бесит блять пиздец сука',
+      question:'Зачем?',
+      answer:'Затем',
       topic_id:topic1.id
     },
     {
-      question:'Бесит блять пиздец сука',
-      answer:'Бесит блять пиздец сука',
+      question:'Зачем?',
+      answer:'Затем',
       topic_id:topic1.id
     },
     {
-      question:'Бесит блять пиздец сука',
-      answer:'Бесит блять пиздец сука',
+      question:'Зачем?',
+      answer:'Затем',
       topic_id:topic1.id
     },
     {
-      question:'Бесит блять пиздец сука',
-      answer:'Бесит блять пиздец сука',
+      question:'Зачем?',
+      answer:'Затем',
       topic_id:topic1.id
     },
     

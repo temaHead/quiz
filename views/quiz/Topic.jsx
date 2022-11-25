@@ -4,7 +4,7 @@ function Topic({ topic }) {
   return (
     <div className='topic-card' data-id={`${topic.id}`}>
       <p>{topic.topic_name}</p>
-      <button className = 'topic-button' type='button'>Перейти</button>
+      <a href={`quiz/questions/${topic.id}`}>Перейти</a>
     </div>
   );
 }
